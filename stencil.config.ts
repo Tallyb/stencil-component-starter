@@ -1,4 +1,5 @@
 import { Config } from '@stencil/core';
+import typescript from 'rollup-plugin-typescript2';
 
 export const config: Config = {
   namespace: 'stencomp',
@@ -10,5 +11,8 @@ export const config: Config = {
       type: 'www',
       serviceWorker: null
     }
+  ],
+  plugins: [
+    typescript()
   ]
 };

@@ -1,6 +1,7 @@
 dist/
 www/
 tmp/
+.**cache/
 
 *~
 *.sw[mnpcod]

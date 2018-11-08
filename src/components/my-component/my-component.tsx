@@ -1,5 +1,5 @@
 import { Component, Prop } from '@stencil/core';
-import { inform } from '@utils'
+import { inform } from '@utils/logger'
 @Component({
   tag: 'my-component',
   styleUrl: 'my-component.css',

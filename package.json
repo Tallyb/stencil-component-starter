@@ -25,6 +25,8 @@
     "@stencil/core": "^0.15.2",
     "@types/jest": "^23.3.9",
     "jest": "^23.6.0",
+    "rollup-plugin-typescript2": "^0.17.2",
+    "typescript": "^3.1.6",
     "vinyl-file": "^3.0.0"
   },
   "repository": {
