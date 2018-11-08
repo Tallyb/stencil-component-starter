@@ -1,5 +1,5 @@
 import { Component, Prop } from '@stencil/core';
-
+import { inform } from '@utils'
 @Component({
   tag: 'my-component',
   styleUrl: 'my-component.css',
@@ -11,6 +11,7 @@ export class MyComponent {
   @Prop() last: string;
 
   render() {
+    inform ('rendering component');
     return (
       <div>
         Hello, World! I'm {this.first} {this.last}
