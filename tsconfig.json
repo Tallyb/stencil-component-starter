@@ -1,5 +1,11 @@
 {
   "compilerOptions": {
+    "outDir": "../../out-tsc/spec",
+    "types": [
+      "jest",
+      "node",
+      "puppeteer"
+    ],
     "allowSyntheticDefaultImports": true,
     "allowUnreachableCode": false,
     "declaration": false,

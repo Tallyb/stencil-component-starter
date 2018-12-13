@@ -7,8 +7,8 @@ const config = {
         
     },
     transform: {
-        ...tsjPreset.transform
-     // '^.+\\.(ts|tsx)$': '<rootDir>/node_modules/@stencil/core/testing/jest.preprocessor.js'
+        //...tsjPreset.transform,
+      '^.+\\.(ts|tsx)$': '<rootDir>/node_modules/@stencil/core/testing/jest.preprocessor.js'
     },
     moduleFileExtensions: [
       'ts',
@@ -26,6 +26,7 @@ const config = {
       '/node_modules/',
       '/www/',
       '/bit/'
-    ]
+    ],
+    preset: 'jest-puppeteer'
 };
 module.exports=config;
